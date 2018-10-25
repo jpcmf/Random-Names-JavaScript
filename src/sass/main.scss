@@ -20,6 +20,7 @@
   --input-bg-color: #eee;
   --input-text-color: #333;
   --button-clear-bg-color: #3572DB;
+  --button-disabled-bg-color: #cccccc;
 
 }
 
@@ -74,6 +75,10 @@ h1 {
     button[data-js="btnClear"] {
       background-color: var(--button-clear-bg-color);
       grid-column: span 1;
+    }
+
+    button:disabled {
+      background-color: var(--button-disabled-bg-color);
     }
   }
 

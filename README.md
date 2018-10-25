@@ -39,7 +39,7 @@ npm run watch
 # Todos
 
  - Write MORE Tests
- - Disable button if input isn't filled
+ - ~~Disable button if input isn't filled~~
 
 # License
 
